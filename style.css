@@ -1,0 +1,54 @@
+h3{
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid red;
+    background-color: aqua;
+    flex-direction: row;
+    border-top: 2px ridge;
+
+    
+   
+}
+
+.p1{
+  border: 2px solid green;
+    font-size: 20px;
+  background-color: chartreuse;  
+  flex-wrap: inherit;
+
+   
+
+}
+.p2{
+  border: 2px solid rgb(128, 0, 19);
+  font-size: 20px;
+background-color: rgb(132, 0, 255);  
+flex-wrap: inherit;
+
+}
+
+.p3{
+  border: 2px solid rgb(0, 128, 126);
+  font-size: 20px;
+background-color: rgb(166, 255, 0);  
+flex-wrap: inherit;
+
+}
+
+  
+table{
+  border: 2px solid black;
+  border-collapse: collapse;
+
+}
+
+tbody tr :nth-child(odd) {
+  background-color:gray;
+}
+
+tbody tr:nth-child(even){
+  background-color: green;
+}
+
+
